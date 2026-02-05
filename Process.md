@@ -19,7 +19,7 @@
   * In the new session, I asked **Cursor Code (VS Code)** to strictly follow [planning.md](design/planning.md) and implement the solution step by step.
   * This ensured the implementation stayed grounded in the agreed design rather than evolving ad-hoc.
   * The implementation prompt is stored at:
-    *[Implementation Prompt](design/prompts_used/prompt_for_planning.txt)*
+    *[Implementation Prompt](design/prompts_used/prompt_for_implementation.txt)*
 
 * **Iterative implementation & debugging**
 
