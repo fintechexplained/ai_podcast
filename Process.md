@@ -4,22 +4,22 @@
 
   * I began by clearly explaining the problem to Claude and asked it to produce a **high-level planning document** before writing any code.
   * The goal was to align on architecture, responsibilities, and execution steps upfront rather than jumping straight into implementation.
-  * The resulting [planning.md](design\planning.md) captured:
+  * The resulting [planning.md](design/planning.md) captured:
 
     * Overall system flow
     * Major components (PDF extraction, agents, evaluation)
     * Testing strategy
     * Assumptions and constraints
   * The prompt used to generate this planning document is stored at:
-    *[Planning Prompt](design\prompts_used\prompt_for_planning.txt)*
+    *[Planning Prompt](design/prompts_used/prompt_for_planning.txt)*
 
 * **Separation of planning and implementation**
 
-  * After reviewing and validating [planning.md](design\planning.md), I intentionally started a **new session** to avoid planning bias or accidental drift.
-  * In the new session, I asked **Cursor Code (VS Code)** to strictly follow [planning.md](design\planning.md) and implement the solution step by step.
+  * After reviewing and validating [planning.md](design/planning.md), I intentionally started a **new session** to avoid planning bias or accidental drift.
+  * In the new session, I asked **Cursor Code (VS Code)** to strictly follow [planning.md](design/planning.md) and implement the solution step by step.
   * This ensured the implementation stayed grounded in the agreed design rather than evolving ad-hoc.
   * The implementation prompt is stored at:
-    *[Implementation Prompt](design\prompts_used\prompt_for_planning.txt)*
+    *[Implementation Prompt](design/prompts_used/prompt_for_planning.txt)*
 
 * **Iterative implementation & debugging**
 
@@ -55,7 +55,7 @@
     * Introduced a **bootstrapper file** to explicitly register agents and extractors
     * Moved shared and repetitive logic into a **utilities module**
   * The full prompt and refactoring history is documented at:
-    *[Refactor Prompt](design\prompts_used\refactor_prompt.txt)*
+    *[Refactor Prompt](design/prompts_used/refactor_prompt.txt)*
 
 * **Validation with unseen data**
 
