@@ -1,0 +1,291 @@
+Alex:  
+Welcome back to “Renewables Reimagined.” I’m Alex, here — as always — to dig into the numbers, untangle the strategy, and ask the questions you’re probably already thinking.
+
+Jordan:  
+And I’m Jordan. Today, we’re diving deep into Vestas’ 2024 Annual Report. They call themselves the global leader in wind energy — so, how did they actually do last year? What’s next for them, and what does it all mean for the wider renewables sector?
+
+Alex:  
+Lots of strong claims in the report — better profitability, a massive backlog, strong strides in sustainability, even changes to workforce diversity. But are those numbers really as impressive as they seem?
+
+Jordan:  
+We’ll break it all down, point by point — no greenwashing, no buzzwords, just the facts as Vestas gave them.
+
+Alex:  
+Let’s start with the big headline:  
+Did Vestas actually make more money in 2024?
+
+Jordan:  
+Short answer: yes. Their EBIT margin before special items hit 4.3% in 2024, up from just 1.5% in 2023.
+
+Alex:  
+So that’s basically their earnings before interest and tax, right? A clean way to look at profitability, ignoring the unusual one-time charges.
+
+Jordan:  
+Exactly. It’s a big jump — more than doubling the margin. And they did it despite what they openly admit was a challenging year.
+
+Alex:  
+But how did they get there? Was it just cost-cutting, or did they actually grow the business?
+
+Jordan:  
+Both, actually. Their turnover grew to EUR 17.3 billion in 2024 — that’s up from the previous year. And here’s a number that really stands out: they ended the year with a record-high combined backlog of EUR 68.4 billion.
+
+Alex:  
+That’s a mountain of future business.
+
+Jordan:  
+It is. It reflects not just current sales but also future commitments — a sign that, demand-wise, Vestas is sitting pretty.
+
+Alex:  
+Did all parts of their business pull their weight? Or was it a few standout segments carrying the rest?
+
+Jordan:  
+That’s a good question — and the answer’s nuanced.  
+The real star was the Power Solutions business, which saw profitability increase by 6.1 percentage points year-on-year in 2024.
+
+Alex:  
+Wait, so if Power Solutions was up that much, what was dragging them down before?
+
+Jordan:  
+Part of it was legacy low-margin projects that had been stuck in their backlog for years. Completing those helped, but the improvement was also due to a “relentless focus on value over volume,” according to the CEO’s letter.
+
+Alex:  
+So they weren’t just selling more — they were being pickier about the deals they took.
+
+Jordan:  
+Right. But it wasn’t all roses. Their Service business — which is a huge part of Vestas’ current and future value — “had a challenging 2024, battling rising costs that required an organisational and cultural recalibration.” That’s their words.
+
+Alex:  
+So, Service took a hit?
+
+Jordan:  
+Yes, but it’s still highly profitable and core to their value proposition. In fact, when Power Solutions struggled in the past, Service was their stabiliser.
+
+Alex:  
+Let’s press in here: with Service being so important, how much business did they actually handle?
+
+Jordan:  
+In 2024, Vestas had 155 GW under service, up from 149 GW in 2023. That’s the largest service business in the wind industry, covering more than 56,000 wind turbines across 71 countries.
+
+Alex:  
+That’s huge. But did customers notice the hiccups in Service?
+
+Jordan:  
+Apparently, customers remain satisfied. The Customer Net Promoter Score for Service was 44 in 2024, and the service contract backlog hit EUR 36.8 billion. The average contract duration sits at 11 years.
+
+Alex:  
+So even with the internal challenges, their customer loyalty stayed strong.
+
+Jordan:  
+Correct. And that’s thanks in part to operational initiatives — they streamlined operations, standardized cost control, and implemented smart troubleshooting tools. Plus, they integrated Utopus into Service to grow their digital offering.
+
+Alex:  
+You mentioned costs, but what about sustainability? Did they make progress on emissions?
+
+Jordan:  
+Yes, particularly outside their Offshore business. Scope 1 and 2 emissions, excluding Offshore, decreased by 44 percent in 2024.
+
+Alex:  
+Forty-four percent? That’s not a minor improvement.
+
+Jordan:  
+Not at all. But — and here’s a critical nuance — the report acknowledges they will not achieve their 2025 targets for greenhouse gas emissions, due to re-entering offshore wind. So, while they made significant progress, they’re not hitting all their sustainability deadlines.
+
+Alex:  
+How did they get those emission numbers down so far?
+
+Jordan:  
+A few big steps: offering circular blades and low-emissions towers, converting benefit vehicle fleets to electric or hybrid, and ensuring that by 2024, 25 percent of their service fleet was already renewably fuelled.
+
+Alex:  
+I have to raise this though: isn’t it a bit convenient to say “excluding Offshore” when they report these sustainability achievements? Offshore’s a huge and growing part of the business.
+
+Jordan:  
+[chuckles] That’s fair. The exclusion is significant — Offshore’s ramp-up is impacting their overall emissions. Still, the 44 percent reduction elsewhere is real.
+
+Alex:  
+Let’s jump to Offshore. Did they actually do anything besides adding emissions? [smiles]
+
+Jordan:  
+Absolutely. Offshore saw 4.6 GW of order intake in 2024. Critically, that included the first offshore order in the USA — a major milestone.
+
+Alex:  
+First U.S. offshore order — that’s notable. What about the V236-15.0 MW turbines? I remember a lot of hype around those.
+
+Jordan:  
+The report calls the commercial traction of the V236-15.0 MW™ “satisfactory,” but cautions that ramping up manufacturing across several locations was tough. They’ll start delivering the first V236 turbines in 2025, with the company warning of a “steep learning curve” that could squeeze margins on the first projects.
+
+Alex:  
+So, some wins, but also some pain.
+
+Jordan:  
+Exactly. This is not a “growth at any price” strategy. They’re explicit that they “will not take unnecessary risks by entering a re-vitalised arms race or being swayed by unrealistic political aspirations.” It’s a very measured tone.
+
+Alex:  
+Isn’t that a little cautious for a market leader? Shouldn’t they be “all in” on new markets and assets?
+
+Jordan:  
+I’d push back there. Caution in renewables, especially with big, capex-heavy offshore projects, often pays off. Overpromising and underdelivering in this industry has cost a lot of companies dearly.
+
+Alex:  
+Fair — but their competitors aren’t sitting still. Siemens Gamesa, GE, others — they’re all gunning for offshore margins.
+
+Jordan:  
+True, but Vestas’ record-high EUR 68.4bn backlog suggests their measured approach isn’t holding them back from winning business.
+
+Alex:  
+Fair enough. Speaking of measured approaches, let’s talk about leadership and diversity. Anything notable in 2024?
+
+Jordan:  
+Yes, actually. Women accounted for 25 percent of Vestas' leadership roles at the end of 2024.
+
+Alex:  
+One in four — that’s progress, but arguably still a way to go.
+
+Jordan:  
+Definitely. But considering where the industry has been, it’s a meaningful step.
+
+Alex:  
+Are there indications they’re satisfied with that or aiming higher?
+
+Jordan:  
+They highlight their ongoing organisational development as “key to our future success,” citing things like the annual Vestas Leadership Forum and diverse external speakers. But as far as specific future targets, not in these passages.
+
+Alex:  
+What about compensation? Did shareholders or employees see any rewards for these gains?
+
+Jordan:  
+Yes on both counts. Vestas proposed a dividend and share buy-back for 2024; plus, they paid out bonuses to global employees.
+
+Alex:  
+So, returning some value to both investors and the workforce.
+
+Jordan:  
+Right. They’re positioning stable profits as not just an operating goal but a shareholder promise.
+
+Alex:  
+Let’s zoom out for a second: why is all this happening now? What’s driving these shifts for Vestas — and for wind in general?
+
+Jordan:  
+Two main things. First, energy security keeps rising in importance — countries are chasing supply independence, not just climate goals. Second, the economics for wind have never been better.
+
+Alex:  
+Break down the economics for us. Is wind really outperforming fossil fuels?
+
+Jordan:  
+According to Bloomberg New Energy Finance, yes. In 2024, the global weighted-average benchmark Levelised Cost of Electricity (LCoE) was $40/MWh for onshore wind and $81/MWh for offshore wind. Compare that to $83/MWh for natural gas CCGT, $72 for coal, and a staggering $231 for nuclear. Solar PV is $41. These LCoE benchmarks do not include subsidies or tax credits, by the way.
+
+Alex:  
+So, wind and solar are now the cheapest new-build options, hands down.
+
+Jordan:  
+That’s right. Onshore wind and solar PV are “about half the cost of coal and natural gas,” according to the report.
+
+Alex:  
+But how much of global electricity actually comes from wind right now?
+
+Jordan:  
+Only about 8 percent, as of 2024.
+
+Alex:  
+That’s lower than I expected, given all the hype.
+
+Jordan:  
+True, but it’s growing. The share of wind in electricity generation is expected to more than double by 2035.
+
+Alex:  
+What needs to happen for wind to hit that target?
+
+Jordan:  
+A huge ramp-up. The International Energy Agency says wind capacity needs to go from around 1,000 GW in 2023 to more than 4,500 GW by 2035 — and 7,900 GW by 2050 to hit global net zero goals.
+
+Alex:  
+So, big-league growth ahead, if the world gets its act together.
+
+Jordan:  
+Exactly. And this isn’t just about climate — it’s about keeping up with rising electricity demand from things like electrification and, interestingly, the AI and cloud computing booms.
+
+Alex:  
+Did they actually call out AI as a driver?
+
+Jordan:  
+They did. In big economies like the EU, China, and the USA, data centres now account for 2-4 percent of electricity demand. A single hyperscale data centre consumes as much electricity as 350,000 to 400,000 electric cars every year.
+
+Alex:  
+That’s wild. So, wind could end up powering the internet — literally.
+
+Jordan:  
+Yes, and possibly coupled with battery storage to handle the variability.
+
+Alex:  
+Let’s talk about growth potential in Vestas’ core business areas, then. Where are they expecting the most expansion?
+
+Jordan:  
+All four business areas are positioned for growth as energy systems transition from fossil-based to renewable. Onshore installations are expected to grow annually by 7-9 percent through 2030; Offshore, by a remarkable 20-25 percent per year. Service market value is expected to grow by 8-10 percent annually, and Development is aiming to outgrow the total onshore market in firm order intake.
+
+Alex:  
+So, holistic growth — not just in building turbines, but also in servicing them and developing new projects.
+
+Jordan:  
+Correct. And these growth rates exclude China, by the way.
+
+Alex:  
+Did they mention any particular regions driving growth?
+
+Jordan:  
+Yes. In Onshore, Germany and the USA are expected to ramp up activity from 2026. Offshore, it’s about expansion into new markets like South Korea and Japan, plus more action in the UK and Germany. Service and Development will be right there to support and capture incremental value.
+
+Alex:  
+I want to revisit a point of tension — growth versus sustainability. Jordan, do you think it’s sustainable for Vestas, or the industry, to keep pushing such aggressive expansion while holding to emissions promises?
+
+Jordan:  
+[pensive] Honestly, it’s a challenge. The report is transparent about the difficulty — especially when pushing into Offshore. They won’t hit their 2025 emissions targets, and they admit that the bureaucratic complexity of ESG reporting is growing for EU companies.
+
+Alex:  
+But, and here’s my disagreement — not hitting your self-imposed sustainability targets should matter, especially for an industry leader. If Vestas doesn’t set the bar, who will?
+
+Jordan:  
+I get that, but consider this: the biggest sustainability impact Vestas has isn’t just about their operational footprint. It’s about the renewable energy they deliver to the grid. If slightly higher internal emissions are the price for quadrupling global wind capacity, is that really a net negative?
+
+Alex:  
+Maybe not. But I do think both matter. Customers, investors, and regulators will keep holding them to account.
+
+Jordan:  
+That’s fair. And the 44% emissions cut (outside Offshore) shouldn’t be overlooked. But the tension you point out is real — and it’s setting the agenda for the whole sector.
+
+Alex:  
+Before we wrap, let’s hit on one last item: culture and leadership. Did Vestas show signs of meaningful organisational change?
+
+Jordan:  
+Yes. They point to “sharpening operational focus,” accountability shifts, leadership development through the Vestas Leadership Forum, and new voices on the Board. Plus, with 25 percent of leadership roles held by women in 2024, they’re moving toward greater diversity.
+
+Alex:  
+And with 35,000-plus employees worldwide, that kind of cultural change takes time.
+
+Jordan:  
+Absolutely. But from their statements and the bonuses paid worldwide, they’re signalling an intent to bring the whole organisation along for the ride.
+
+Alex:  
+Okay, time for the big picture.
+
+Jordan:  
+The Takeaway.
+
+Takeaway
+
+Alex:  
+Here’s what sticks with me. Vestas delivered strong financial progress in 2024: EBIT margin before special items jumped to 4.3%, turnover rose to EUR 17.3 billion, and the backlog hit a record EUR 68.4 billion. These results were driven by a big turnaround in Power Solutions, a growing Offshore segment with a landmark U.S. order, and sizable progress on emissions outside Offshore.
+
+Jordan:  
+But the single most important message? In a tough global year, Vestas demonstrated that strategic discipline — focusing on value, operational excellence, and sustainability where possible — enables growth and resilience, even when not every target gets hit. Their trajectory shows a company navigating complexity, returning value to both employees and shareholders, and positioning itself to help power a rapidly electrifying, digital world.
+
+Alex:  
+In other words: Leading isn’t about flawless execution — it’s about moving forward, adapting fast, and bringing people, planet, and profit along together.
+
+Jordan:  
+And that’s the real lesson from Vestas 2024.
+
+Alex:  
+Thanks for tuning in. See you next time for another deep-dive into what’s shaping the future of energy.
+
+Jordan:  
+Take care — and keep questioning the headlines!

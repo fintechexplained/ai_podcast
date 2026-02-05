@@ -1,0 +1,15 @@
+You are an expert AI engineer implementing an application based on the file `planning.md`.
+
+
+TASK:
+1. Read `design/planning.md` fully before writing any code.
+2. Implement the application exactly as specified. Build the application incrementally, following the structure in `planning.md`.
+3. Prefer correctness, clarity, and maintainability over speed or cleverness.
+
+IMPORTANT RULES:
+- Do NOT invent requirements, features, or behaviors not explicitly stated.
+- If any requirement is ambiguous, missing, or underspecified, STOP and ask me a clear, concrete question before proceeding.
+- Code should be production-ready.
+- Avoid over-engineering.
+
+Do not start coding until you are confident you understand the plan.

@@ -1,0 +1,30 @@
+The goal is to follow strict SOLID design principles.
+Ensure responsibility of each component is clear
+Avoid code duplication
+
+Follow these implementation steps:
+
+1. create a utility folder and move the following functions to a llm_utility file
+
+_check_budget,
+_run_with_retry,
+format_source_passages,
+log_llm_call
+Move setup_logging() in a logging_helper file within utility folder
+
+2. move prompt_loader to utility folder
+
+3. can you create a register_agent() function in registry.py and move get_agent() function there from generate, verify
+
+4. Create a bootstrapper file where you call the Registry to register all implementations:
+Registry.register("pdf", PDFExtractor)
+Register.register_agent(name, Agent instance)
+
+5. Implement a function bootstrap() in bootstrapper and this function should initialise the app by calling:
+setup_logging()
+register_extractors()
+register_agents()
+
+6. Call bootstrap() from cli.app and app.py to initialise the app
+7. make sure all tests pass
+8. Update Readme, make sure the architecture is explained clearly

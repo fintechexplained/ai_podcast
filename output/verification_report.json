@@ -1,0 +1,181 @@
+{
+  "claims": [
+    {
+      "claim_text": "Vestas' EBIT margin before special items hit 4.3% in 2024, up from 1.5% in 2023.",
+      "status": "TRACED",
+      "source_page": 4,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "Vestas' turnover grew to EUR 17.3 billion in 2024.",
+      "status": "TRACED",
+      "source_page": 4,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "Vestas ended 2024 with a record-high combined backlog of EUR 68.4 billion.",
+      "status": "TRACED",
+      "source_page": 4,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "Profitability in Vestas' Power Solutions business increased by 6.1 percentage points year-on-year in 2024.",
+      "status": "TRACED",
+      "source_page": 3,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "Vestas' Service business had a challenging 2024, battling rising costs that required an organisational and cultural recalibration.",
+      "status": "TRACED",
+      "source_page": 3,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "Vestas had 155 GW under service at the end of 2024, up from 149 GW in 2023, covering more than 56,000 turbines across 71 countries and making it the largest service business in the industry.",
+      "status": "TRACED",
+      "source_page": 31,
+      "source_section": "Service"
+    },
+    {
+      "claim_text": "The Customer Net Promoter Score for Vestas Service was 44 in 2024, and the service contract backlog was EUR 36.8 billion. The average contract duration was 11 years.",
+      "status": "TRACED",
+      "source_page": 31,
+      "source_section": "Service"
+    },
+    {
+      "claim_text": "In 2024, 25 percent of Vestas' total service fleet consisted of renewably fuelled vehicles, including EVs and biofuel vehicles.",
+      "status": "TRACED",
+      "source_page": 31,
+      "source_section": "Service"
+    },
+    {
+      "claim_text": "Scope 1 and 2 emissions outside Offshore decreased by 44 percent in 2024, but Vestas will not meet its 2025 GHG targets due to re-entering offshore wind.",
+      "status": "TRACED",
+      "source_page": 4,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "Vestas offered circular blades and low-emissions towers, converted benefit vehicle fleets to EV/PHEV, and made other steps to reduce emissions in 2024.",
+      "status": "TRACED",
+      "source_page": 4,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "Vestas' Offshore business had 4.6 GW of order intake in 2024, including receiving the first offshore order in the USA.",
+      "status": "TRACED",
+      "source_page": 4,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "The V236-15.0 MW™ had satisfactory commercial traction in 2024, but ramping up manufacturing across several locations was challenging. The first V236 turbines will be delivered in 2025, which will entail a steep learning curve for initial projects and may impact margins negatively.",
+      "status": "TRACED",
+      "source_page": 4,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "Women accounted for 25 percent of Vestas’ leadership roles at the end of 2024.",
+      "status": "TRACED",
+      "source_page": 4,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "Vestas proposed a payout of a dividend combined with a share buyback for 2024, and paid out bonuses to employees globally.",
+      "status": "TRACED",
+      "source_page": 4,
+      "source_section": "Letter from the Chair & CEO"
+    },
+    {
+      "claim_text": "The global weighted-average benchmark Levelised Cost of Electricity (LCoE) in 2024 was $40/MWh for onshore wind, $81/MWh for offshore wind, $83/MWh for natural gas CCGT, $72 for coal, $231 for nuclear, and $41 for solar PV. These benchmarks do not include subsidies or tax credits.",
+      "status": "TRACED",
+      "source_page": 17,
+      "source_section": "Market outlook"
+    },
+    {
+      "claim_text": "Onshore wind and solar PV are about half the cost of coal and natural gas for new-build electricity generation.",
+      "status": "TRACED",
+      "source_page": 17,
+      "source_section": "Market outlook"
+    },
+    {
+      "claim_text": "Wind electricity accounted for about 8 percent of global electricity generation in 2024.",
+      "status": "TRACED",
+      "source_page": 17,
+      "source_section": "Market outlook"
+    },
+    {
+      "claim_text": "The share of wind in electricity generation is expected to more than double by 2035.",
+      "status": "TRACED",
+      "source_page": 17,
+      "source_section": "Market outlook"
+    },
+    {
+      "claim_text": "According to the International Energy Agency, wind capacity needs to go from around 1,000 GW in 2023 to more than 4,500 GW by 2035, and 7,900 GW by 2050 to hit global net zero goals.",
+      "status": "TRACED",
+      "source_page": 17,
+      "source_section": "Market outlook"
+    },
+    {
+      "claim_text": "In large economies like the EU, China, and the USA, data centres now account for 2-4 percent of electricity demand, and a single hyperscale data centre consumes as much electricity as 350,000-400,000 electric cars per year.",
+      "status": "TRACED",
+      "source_page": 18,
+      "source_section": "Market outlook"
+    },
+    {
+      "claim_text": "Onshore installations are expected to grow annually by 7-9 percent through 2030 (excluding China); Offshore by 20-25 percent; Service market value by 8-10 percent; Development aims to outgrow the total onshore market in firm order intake.",
+      "status": "TRACED",
+      "source_page": 18,
+      "source_section": "Market outlook"
+    },
+    {
+      "claim_text": "In Onshore, Germany and the USA are expected to ramp up activity from 2026. Offshore, expansion is expected in South Korea, Japan, the UK, and Germany.",
+      "status": "TRACED",
+      "source_page": 18,
+      "source_section": "Market outlook"
+    },
+    {
+      "claim_text": "Vestas employs more than 35,000 people worldwide.",
+      "status": "TRACED",
+      "source_page": 4,
+      "source_section": "Letter from the Chair & CEO"
+    }
+  ],
+  "coverage": [
+    {
+      "section": "Letter from the Chair & CEO",
+      "status": "COVERED",
+      "key_points_total": 17,
+      "key_points_covered": 17,
+      "omitted_points": []
+    },
+    {
+      "section": "Market outlook",
+      "status": "COVERED",
+      "key_points_total": 13,
+      "key_points_covered": 13,
+      "omitted_points": []
+    },
+    {
+      "section": "Corporate strategy",
+      "status": "COVERED",
+      "key_points_total": 8,
+      "key_points_covered": 8,
+      "omitted_points": []
+    },
+    {
+      "section": "Service",
+      "status": "COVERED",
+      "key_points_total": 10,
+      "key_points_covered": 10,
+      "omitted_points": []
+    }
+  ],
+  "summary": {
+    "total_claims": 23,
+    "traced": 23,
+    "partially_traced": 0,
+    "not_traced": 0,
+    "total_key_points": 48,
+    "key_points_covered": 48,
+    "coverage_percentage": 100.0
+  }
+}
