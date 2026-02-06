@@ -1,0 +1,91 @@
+Generate a detailed technical design document in design/planning.md for a Python Podcast Generator project
+This file should contain the technical instructions explaining how to implement the application.
+Make sure everything is explained clearly
+
+---
+
+The app takes a PDF and turns it into a two-host podcast script with a verification report.
+Default PDF is data/Vestas Annual Report 2024.pdf (221 pages) but it should work on any corporate PDF.
+Extraction is slow so it runs once and caches to JSON. The generation layer and UI both read from that cache.
+Both a Streamlit UI and a two-step CLI should work, and both must call the same underlying Python functions.
+
+BACKEND - in src folder
+
+Layer 1 - PDF Extraction (extract.py)
+- Extract text page by page using pdfplumber
+- Detect sections using fitz: try the PDF TOC first, fall back to the Contents (or table of contents or its variants) page if TOC does not exist.  The Contents page can be multi column and it would have page numbers of the sections mentioned.  Fall back to font-size heuristic if TOC is empty and Contents page does not exist. Ensure the 'level' of each section is detected correctly based on font size, bold or identation of the text.
+- Extracting sections and page numbers is a very important feature. Add tests to validate it.
+- Font-size rules: 18pt+ is a heading, 26pt+ is a major section. A candidate must have at least 3 letters (filters out decorative callouts like arrows and percentages). Merge consecutive heading lines on the same page into one title. Skip any heading that appears on more than half of pages (nav bars).
+- Output extracted_text.json with metadata, sections (title, start page, end page, level), and all page text
+- Must be importable as a function and also runnable standalone via CLI
+- Scan the first few lines of every page; any line that appears on more than MAX_PAGE_APPEARANCES pages is a repeating nav bar — remove it. 
+- Any line whose first non-whitespace character is a nav arrow (→ ▶ ▸ ►) is a clickable sub-link — remove it. 
+= If the pdf pages have hyperlinks at the top, remove them from the extracted text.  
+- Remove any text you cannot encode
+
+Layer 2 - Podcast Generation (generate.py)
+- Use PydanticAI to create separate agent for generating podcast script, evaluation, self improvement and verification.  
+- This is because I want the system to be excellent at quality, safety, and debuggability.
+- config.json lists which sections to include, each with an optional page override
+- filter.py resolves sections: explicit pages take priority, otherwise fuzzy-match section names from the extracted JSON (case-insensitive, match if one string contains the other)
+- Agent loop: Generate the podcast script, Self-Evaluate it (score 1-10 on teachability, conversational feel, friction/disagreement, takeaway, and accuracy), Self-Improve if the overall score is below 8, repeat up to 5 iterations total, then run verification.  
+When you evaluate, follow these rules:
+- Be strict.
+- Penalise hallucinations heavily.
+- Prefer factual correctness over creativity.
+- Do not add new information.
+- Respectful and inclusive
+- Free from harmful or biased language
+
+When you self improve, then revise the podcast script as follows:
+	- Remove hallucinations completely.
+	- Add missing key points from the source.
+	- Improve spoken flow and transitions.
+	- Preserve the original tone and target duration.
+	- Do NOT introduce new facts.
+- verify.py checks every factual claim against the source passages (TRACED, PARTIALLY_TRACED, or NOT_TRACED). Include the page number and section name if the claim can be traced. Also check coverage per section (COVERED, PARTIAL, OMITTED). Finally calculate percentage of key information from the specified sections that made it in, and what was omitted
+- Script style: two hosts called Alex and Jordan, not rigidly alternating, at least one disagreement moment, sparse emotion cues in brackets, clear takeaway at the end, target 2000 words.  
+It should sound like a real conversation, keep it lightweight and professional.
+The total number of words should also be in app_config.py
+- Expose a single run_pipeline function that the UI imports directly, with an optional progress callback for live status updates
+
+
+
+UI - Streamlit (app.py) - in src folder
+
+Four tabs. All state lives in st.session_state so nothing resets between tabs.
+
+Tab 1 Extract: file uploader for PDFs, an extract button that runs the extractor inside a status widget, then a table of all detected sections once extraction is done
+Tab 2 Generate: a tree multi select to pick sections from the detected list, show the pages of each section when a section is selected, show a page-override text input per selected section, a generate button that kicks off the pipeline with live status updates. If I select a section then select all sections are its levels.
+Guard: hide everything if extraction hasn't run yet.
+
+Tab 3 Podcast Script: word count as a metric at the top, the full script rendered as markdown with bold speaker labels, a download button for the raw text
+Tab 4 Verification Report: a claims table showing each claim and its status with emoji prefixes (check, warning, flag), a coverage table per section using the same convention, a download button for the JSON
+
+Sidebar: only a single Reset button to clear all session state. 
+Add the logo from data/logo.png on the top of the side bar
+Load OPENAI_API_KEY from a .env file via python-dotenv.
+
+RULES
+- Add logging to a log file
+- Follow TDD, write tests covering positive and negative cases
+- Write a user guide highlighting the steps to execute on the UI
+- Create register.py as an IoC container for class instances, to support swapping in different file-type extractors later. 
+- Use OpenAI for this exercise
+- Follow SOLID principles
+- Keep code simple, do not overcomplicate
+- Add thorough exception handling
+- Make sure all prompts are stored as md files
+- Store all prompts in a prompts/ folder and create a utility function to load them
+- Output folder holds: extracted_text.json, podcast_script.txt, verification_report.json, llm_log.jsonl
+- requirements.txt: pdfplumber, pymupdf, openai, streamlit, python-dotenv
+= Follow Pep8 coding standards.
+- Create a Readme.md file with instructions on the application, how to set it up, and create a system architecture diagram to explain the flow
+- Add the code in 'src' folder and tests in the 'tests' folder
+- All application level configurations (constants such as model name, max iterations for agent, max iterations for calling llm) should be stored in app_config.py that I can override by setting in env file
+
+Format the output as a well-structured planning.md with clear headings, an architecture overview, code blocks for schemas and key examples, and enough detail to build the entire project from scratch.
+
+If you are unsure about anything, ask me
+
+Show me the the contents of the planning.md file so I can review it.

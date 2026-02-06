@@ -1,0 +1,12 @@
+.env
+.claude/settings.local.json
+.vscode/settings.json
+logs/app.log
+*/__pycache__/*
+.venv/
+__pycache__/
+*.pyc
+src/utility/__pycache__/__init__.cpython-314.pyc
+src/utility/__pycache__/llm_utility.cpython-314.pyc
+src/utility/__pycache__/logging_helper.cpython-314.pyc
+src/utility/__pycache__/prompt_loader.cpython-314.pyc

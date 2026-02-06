@@ -1,0 +1,9 @@
+pdfplumber>=0.11
+pymupdf>=1.23              # provides the 'fitz' module
+openai>=1.0
+pydantic-ai>=0.0.30        # PydanticAI agent framework
+streamlit>=1.30
+python-dotenv>=1.0
+
+# dev / test
+pytest>=7.4
